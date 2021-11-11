@@ -6,5 +6,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>Documentation</module>
+  	<module>e-45</module>
   </modules>
 </project>
