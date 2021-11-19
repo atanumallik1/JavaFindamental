@@ -10,6 +10,7 @@ public class Producer implements Runnable {
 		Random r = new Random(9999);
 
 		while (true) {
+			//Main.bucket is out Monitor Object
 			synchronized (Main.bucket) {
 				if (Main.bucket.size() < 100) {
 					int i = r.nextInt(1000);
